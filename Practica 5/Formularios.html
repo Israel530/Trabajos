@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formularios en HTML (inputs)</h1>
+    <hr/>
+    <form action="">
+        <label for="Nombre">Nombre</label>
+        <input type="text" required placeholder="Ingresa tu nombre" minlength="4" maxlength="10" id="Nombre">
+        <br/>
+        <br/>
+        <label for="apellido">Apellido</label>
+        <input type="text" required placeholder="Ingresa tu Apellido" minlength="4" maxlength="10" id="Apellido">
+        <br/>
+        <br/>
+        <label for="Email">Email</label>
+        <input type="text" required placeholder="Ingresa tu Correo" minlength="4" id="Correo">
+        <br/>
+        <br/>
+        <label for="Password">Password</label>
+        <input type="Password" required id="password">
+        <br/>
+        <br/>
+        <label for="Numeros">Telefono</label>
+        <input type="Number" required min="0" max="10" id="Telefono">
+        <br/>
+        <br/>
+        <h4>Selecciona tu sexo</h4>
+        <input type="radio" value="Masculino" id="Masculino">Masculino
+        <input type="radio" value="Femenino" id="femenino">femenino
+        <br/>
+        <br/>
+        <h4>Selecciona los aparatos electronicos que cuantas en tu casa</h4>
+        <input type="Checkbox" value="laptop" id="1">laptop
+        <br>
+        <input type="checkbox" value="tv" id="2">TV
+        <br>
+        <input type="checkbox" value="camara" id="3">camara
+        <br>
+        <input type="checkbox" value="Celular" id="4" checked>Celular
+        <br>
+        <input type="checkbox" value="Tableta" id="5">Tableta
+        <br/>
+        <br/>
+        <label for="">Selecciona una opción</label>
+        <br/>
+        <select id="Pais">
+            <option value="0">Seleccionar un país</option>
+            <Option value="1">Mexico</Option>
+            <option value="2">EUA</option>
+            <option value="3">Francia</option>
+            <option value="4">Italia</option>
+            <option value="5">España</option>
+        </select>
+        <br/>
+        <br/>
+        <label for="Fecha">Seleccionar una fecha</label>
+        <input type="date" min="2020-01-01" max="2020-12-31" value="2020-09-04">
+        <br/>
+        <br/>
+        <label for="Mes">Selecciona el mes</label>
+        <input type="month" min="2020-01" max="2020-12" value="2020-09">
+        <br/>
+        <br/> 
+        <label for="año">Selecciona el año</label>
+        <input type="year" min="2010" max="2020" value="2020">
+        <br/>
+        <br/>
+        <label for="color">Selecciona el color</label>
+        <input type="color"/>
+        <br/>
+        <br/>
+        <label for="volumen">Volumen</label>
+        <input type="range"/>
+        
+    </form>
+</body>
+</html>
